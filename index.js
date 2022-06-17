@@ -35,7 +35,7 @@ class LoggingLib {
                dim: "\x1b[2m",
                blue: "\x1b[34m",
           };
-     };
+     }
 
      info(msg, category = null) {
           category = category || this.options.category != null ? `${LoggingLib.ascii.dim}${this.options.category}${LoggingLib.ascii.reset}/` : '';

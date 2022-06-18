@@ -4,29 +4,29 @@ declare module "@tymianekpl/LoggingLib" {
           * The category of the log. If null, the category is not printed.
           * @default null
           */
-          category: string;
+          category?: string;
           /**
            * If true, the timestamp will be displayed
            * @default true
            */
-          includeTimestamp: boolean;
+          includeTimestamp?: boolean;
           /**
            * The prefix of the log.
            * If null, the prefix is not printed.
            * @default ''
            */
-          prefix: string;
+          prefix?: string;
           /**
            * Should the log be wrote to file?
            * @default true
            */
-          writeToFile: boolean;
+          writeToFile?: boolean;
           /**
            * The file to write the log to.
            * Use $time$ to insert the current time.
            * @default "logs/$time$.log"
            */
-          fileName: string;
+          fileName?: string;
      };
 
 

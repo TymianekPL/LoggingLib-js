@@ -1,6 +1,6 @@
 {
   "name": "@tymianekpl/logginglib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Log It Library is advanced logging library for javascript",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/TymianekPL/logginglib-js"
-  }, 
-  "keywords": ["log", "js", "library"] 
+  },
+  "keywords": ["log", "js", "library"]
 }

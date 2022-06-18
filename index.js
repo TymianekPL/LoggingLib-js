@@ -10,11 +10,11 @@ class LoggingLib {
           filePath: "logs/$time$.log",
      }) {
           this.options = options || {};
-          this.options.includeTimestamp = this.options.includeTimestamp || false;
-          this.options.writeToFile = this.options.writeToFile || true;
-          this.options.filePath = this.options.filePath || "logs/$time$.log";
-          this.options.prefix = this.options.prefix || '';
-          this.options.category = this.options.category || null;
+          this.options.includeTimestamp = this.options.includeTimestamp ?? false;
+          this.options.writeToFile = this.options.writeToFile ?? true;
+          this.options.filePath = this.options.filePath ?? "logs/$time$.log";
+          this.options.prefix = this.options.prefix ?? '';
+          this.options.category = this.options.category ?? null;
 
           this.#initializedTimeStamp = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '').replace(/:/g, '.');
 

@@ -1,6 +1,6 @@
 {
   "name": "@tymianekpl/logginglib",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Log It Library is advanced logging library for javascript",
   "main": "index.js",
   "scripts": {

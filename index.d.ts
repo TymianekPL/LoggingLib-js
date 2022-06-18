@@ -1,5 +1,5 @@
 declare module "@tymianekpl/LoggingLib" {
-     interface ILogLibOptions {
+     type LogLibOptions = {
           /**
           * The category of the log. If null, the category is not printed.
           * @default null
@@ -27,11 +27,11 @@ declare module "@tymianekpl/LoggingLib" {
            * @default "logs/$time$.log"
            */
           fileName: string;
-     }
+     };
 
 
      class LoggingLib {
-          constructor(options: ILogLibOptions);
+          constructor(options?: LogLibOptions);
           public info(message: string): void;
           public info(message: string, category: string): void;
 

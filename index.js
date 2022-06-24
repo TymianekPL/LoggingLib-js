@@ -17,9 +17,6 @@ class LoggingLib {
           this.options.category = this.options.category ?? null;
 
           this.#initializedTimeStamp = new Date().toISOString().replace(/T/, ' ').replace(/\..+/, '').replace(/:/g, '.');
-
-          if (this.options.writeToFile && this.options.filePath == null)
-               this.options.filePath = "logs/$time$.log";
      }
 
      #initializedTimeStamp;

@@ -1,4 +1,4 @@
-# LoggingLib
+# [LoggingLib](https://npmjs.org/@TymianekPL/logging-lib)
 
 npm:
 
@@ -14,7 +14,7 @@ yarn add @tymianekpl/logginglib
 
 ## This is a library created to help with logging.
 
-### Sample code:
+### Sample code
 
 ```js
 import LoggingLib from "@tymianekpl/LoggingLib"
